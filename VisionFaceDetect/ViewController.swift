@@ -29,9 +29,6 @@ class ViewController: UIViewController {
     }
     
     
-    
-    
-    
     func myResultsMethod(request: VNRequest, error: Error?) {
         guard let results = request.results as? [VNClassificationObservation] else {
             fatalError("could not get results from ML Vision request")
@@ -63,12 +60,6 @@ class ViewController: UIViewController {
             print(error)
         }
     }
-    
-    
-    
-    
-    
-    
     
     
     func performRequestForFaceLandmarks(image: UIImage) {
@@ -107,16 +98,10 @@ class ViewController: UIViewController {
         
         //drawOnImage( image , landmarks)
         
-        
-        
-        
-        
+      
     }
     
-    
-    
-    
-    
+  
     
     func drawOnImage(source: UIImage,
                                  boundingRect: CGRect,
@@ -169,29 +154,7 @@ class ViewController: UIViewController {
         return coloredImg
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+ 
     
     
     func addFaceContour(forObservation face: VNFaceObservation, toView view :UIView) {
@@ -272,14 +235,6 @@ class ViewController: UIViewController {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
     func handleFaceDetection(request: VNRequest, error: Error?) {
         guard let observations = request.results as? [VNFaceObservation] else {
             fatalError("unexpected results from VNDetectFaceRectanglesRequest")
@@ -312,14 +267,4 @@ extension ViewController : UIImagePickerControllerDelegate, UINavigationControll
     
     
 }
-
-
-
-
-
-
-
-
-
-
 
