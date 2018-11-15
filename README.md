@@ -1,8 +1,9 @@
 # VisionFaceDetect
 Face Detection with IOS Vision Framework.
 
-Vision Framework 
-Vision is a Framework that lets you apply high-performance image analysis and computer vision technology to images and videos, thus automatically identifying faces, detecting features and classifying scenes.
+Vision and Core Machine Learning Framework:
+Vision is a Framework that lets you apply high-performance image analysis and computer vision technology to images and videos, thus automatically identifying faces, detecting features and classifying scenes.CoreML framework predicts those images using trained or learning models.
+
 You can find in Vision:
 
 * Determine face rectangle and face landmarks i.e. eyes, brows, nose...
